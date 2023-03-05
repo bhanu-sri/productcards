@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .row {
+      margin: 0 5 0px;
+      align-items: center;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 10px;
+    }
+
+    img:hover {
+      transform: scale(1.2);
+      transition: 0.5s all ease-in-out;
+    }
+
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 9px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    .card button:hover {
+      opacity: 0.7;
+    }
+
+    .column {
+      float: left;
+      width: 20%;
+      padding: 0 10px;
+    }
+
+    body {
+      align-items: center;
+      background-color: peachpuff;
+    }
+
+    #a {
+      text-align: center;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="a">Product Cards - Women Collection</h1>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img
+          src="https://assets.ajio.com/medias/sys_master/root/20220712/wxgD/62cd87aff997dd03e2cf3130/-473Wx593H-464634840-multi-MODEL2.jpg"
+          alt="dress" height="250" style="width: 100%" />
+        <h1>Maxi</h1>
+        <p class="price">1,200/-</p>
+        <a href="main.html">
+          <p><button>Show More</button></p>
+        </a>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img
+          src="https://asset20.ckassets.com/thegoodlookbook/wp-content/uploads/sites/2/2018/12/2-31-e1545911306347.jpg"
+          alt="" height="250" style="width: 100%" />
+        <h1>Kurta set</h1>
+        <p class="price">1,300/-</p>
+        <a href="main.html">
+          <p><button>Show More</button></p>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="http://cdn.shopify.com/s/files/1/2635/3244/products/W0781JS-FRE-BLU.jpg?v=1606559592" alt=""
+          height="250" style="width: 100%" />
+        <h1>Jumpsuit</h1>
+        <p class="price">1,199/-</p>
+        <a href="main.html">
+          <p><button>Show More</button></p>
+        </a>
+
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img
+          src="https://assets.ajio.com/medias/sys_master/root/20220817/XLh8/62fc21a7aeb26917617a44c6/-1117Wx1400H-461664640-yellow-MODEL.jpg"
+          alt="Jeans" height="250" style="width: 100%" />
+        <h1>Frock</h1>
+        <p class="price">999/-</p>
+        <a href="main.html">
+          <p><button>Show More</button></p>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
